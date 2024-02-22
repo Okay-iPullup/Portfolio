@@ -1,0 +1,233 @@
+.main
+{
+    background-color: #fff;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 55%;
+}
+
+.left
+{
+    background-color: gray;
+    width: 200px;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.right
+{
+    width: 450px;
+    height: 673px;
+    background-color: #cca893;
+    float: left;
+}
+
+.profile-img
+{
+    height: 180px;
+    width: 180px;
+    background-color: #e0590b;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px solid gray;
+}
+
+.profile-img img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.heading
+{
+    background-color: #c2c2c2;
+    padding: 10px;
+    color: #e0590b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+
+.p1
+{
+    padding: 9px 10px;
+    font-size: 14px;
+}
+
+.skill-container
+{
+    width: 90%;
+    background-color: #c2c2c2;
+    margin: 0 10px;
+}
+
+.skill
+{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #000;
+}
+
+.html
+{
+    width: 85%;
+    background-color: #000;
+}
+
+.c
+{
+    width: 99%;
+    background-color: #000;
+}
+
+.py
+{
+    width: 90%;
+    background-color: #000;
+}
+
+.sql
+{
+    width: 99%;
+    background-color: #000;
+}
+
+.web
+{
+    width: 85%;
+    background-color: #000;
+}
+
+.data
+{
+    width: 90%;
+    background-color: #000;
+}
+
+.name
+{
+    padding: 86px 0 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name h1
+{
+    margin-bottom: 10px;
+}
+
+.box-2
+{
+    padding: 0 50px;
+    margin-top: 30px;
+}
+
+.p2
+{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+h2
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.p3
+{
+    font-size: 12px;
+    word-spacing: 1px;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+.p3 span
+{
+    color: #e0590b;
+    padding-left: 20px;
+}
+
+@media (max-width: 700px)
+{
+    .main
+    {
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .left
+    {
+        width: 40%;
+        float: left;
+    }
+
+    .right
+    {
+        width: 60%;
+        float: left;
+    }
+
+    .profile-img
+    {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #e0590b;
+    }
+
+    .heading
+    {
+        margin-right: 0;
+    }
+
+    .box-2
+    {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .name
+    {
+        padding: 10px 0 10px 0;
+    }
+
+    .box-1
+    {
+        width: 100%;
+    }
+
+    .p3 span
+    {
+        padding-left: 0;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .skill-container
+    {
+        margin: 0;
+    }
+
+    .p2
+    {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
